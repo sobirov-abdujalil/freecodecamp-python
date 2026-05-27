@@ -1,0 +1,15 @@
+first_name = 'John'
+last_name = 'Doe'
+
+full_name = first_name + ' ' + last_name
+
+address = '123 Main Street'
+address += ', Apartment 4B'
+
+employee_age = 28
+
+employee_info = full_name + ' is ' + str(employee_age)
+
+experience_years = 5
+experience_info = 'Experience: ' + str(experience_years) + ' years'
+print(experience_info)
