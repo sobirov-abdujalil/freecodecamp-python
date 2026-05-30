@@ -2,7 +2,7 @@
 
 # freecodecamp-python
 
-A hands-on collection of Python projects built through FreeCodeCamp's curriculum. Each module is a step-by-step journey from fundamentals to advanced algorithms.
+A hands-on collection of Python projects built through the FreeCodeCamp curriculum. Each module progresses from fundamentals to advanced algorithms through practical exercises.
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FreeCodeCamp](https://img.shields.io/badge/FreeCodeCamp-0A0A23?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://freecodecamp.org)
@@ -27,10 +27,10 @@ A hands-on collection of Python projects built through FreeCodeCamp's curriculum
 | 08 | [Dynamic Programming](#dynamic-programming) | Pending |
 | 09 | [Error Handling](#error-handling) | Pending |
 | 10 | [Graphs and Trees](#graphs-and-trees) | Pending |
-| 11 | [Implement the Tower of Hanoi Algorithm](#tower-of-hanoi) | Pending |
+| 11 | [Implement the Tower of Hanoi Algorithm](#implement-the-tower-of-hanoi-algorithm) | Pending |
 | 12 | [Linear Data Structures](#linear-data-structures) | Pending |
 | 13 | [Loops and Sequences](#loops-and-sequences) | Pending |
-| 14 | [Object-Oriented Programming (OOP)](#oop) | Pending |
+| 14 | [Object-Oriented Programming (OOP)](#object-oriented-programming-oop) | Pending |
 | 15 | [Python Review](#python-review) | Pending |
 | 16 | [Algorithms](#algorithms) | Pending |
 
@@ -41,30 +41,30 @@ A hands-on collection of Python projects built through FreeCodeCamp's curriculum
 ```
 freecodecamp-python/
 |
-+-- Python Basics/                          # 2/7 completed
-|   +-- Build a Report Card Printer/        # 10 steps
-|   +-- Build an Employee Profile Generator/ # 18 steps
-|   +-- Build a Caesar Cipher/              # Pending
++-- Python Basics/                              # 2 of 7 completed
+|   +-- Build a Report Card Printer/            # 10 steps
+|   +-- Build an Employee Profile Generator/    # 18 steps
+|   +-- Build a Caesar Cipher/                  # Pending
 |   +-- Build a Movie Ticket Booking Calculator/ # Pending
-|   +-- Build a Travel Weather Planner/     # Pending
-|   +-- Build an Apply Discount Function/   # Pending
-|   +-- Build an RPG Character/             # Pending
+|   +-- Build a Travel Weather Planner/         # Pending
+|   +-- Build an Apply Discount Function/       # Pending
+|   +-- Build an RPG Character/                 # Pending
 |
-+-- Build a Budget App/                     # Pending
-+-- Build a Hash Table/                     # Pending
-+-- Build a Polygon Area Calculator/        # Pending
-+-- Build a User Configuration Manager/     # Pending
-+-- Classes and Objects/                    # Pending
-+-- Dictionaries and Sets/                  # Pending
-+-- Dynamic Programming/                    # Pending
-+-- Error Handling/                         # Pending
-+-- Graphs and Trees/                       # Pending
-+-- Implement the Tower of Hanoi Algorithm/ # Pending
-+-- Linear Data Structures/                 # Pending
-+-- Loops and Sequences/                    # Pending
-+-- Object-Oriented Programming (OOP)/      # Pending
-+-- Python Review/                          # Pending
-+-- Algorithms/                             # Pending
++-- Build a Budget App/                         # Pending
++-- Build a Hash Table/                         # Pending
++-- Build a Polygon Area Calculator/            # Pending
++-- Build a User Configuration Manager/         # Pending
++-- Classes and Objects/                        # Pending
++-- Dictionaries and Sets/                      # Pending
++-- Dynamic Programming/                        # Pending
++-- Error Handling/                             # Pending
++-- Graphs and Trees/                           # Pending
++-- Implement the Tower of Hanoi Algorithm/     # Pending
++-- Linear Data Structures/                     # Pending
++-- Loops and Sequences/                        # Pending
++-- Object-Oriented Programming (OOP)/          # Pending
++-- Python Review/                              # Pending
++-- Algorithms/                                 # Pending
 |
 +-- README.md
 ```
@@ -78,7 +78,7 @@ freecodecamp-python/
 <details open>
 <summary><b>Project 1: Build a Report Card Printer</b> — 10 steps</summary>
 
-A beginner-friendly introduction to Python's core data types. Each step builds on the last, progressing from a simple variable to printing all four primitive types.
+A beginner-friendly introduction to Python's core data types. Each step builds on the last, from a simple variable to printing all four primitive types.
 
 | Step | File | Concept | Code |
 |:----:|------|---------|------|
@@ -89,7 +89,7 @@ A beginner-friendly introduction to Python's core data types. Each step builds o
 | 05 | `step5.py` | Printing multiple items | `print(is_student, type(is_student))` |
 | 06 | `step6.py` | Clean output formatting | Combine prints neatly |
 | 07 | `step7.py` | Integer type | `age = 20` |
-| 08 | `step8.py` | Float type & `isinstance()` | `score = 80.5` |
+| 08 | `step8.py` | Float & `isinstance()` | `score = 80.5` |
 | 09 | `step9.py` | Fixed type check | `isinstance(score, float)` |
 | 10 | `step10.py` | Final solution | Complete type demonstration |
 
@@ -197,35 +197,35 @@ print(last_three)
 <details>
 <summary><b>Project 3: Build a Caesar Cipher</b> — Pending</summary>
 
-Coming soon — encryption/decryption with the classic Caesar cipher algorithm. Will cover loops, string manipulation, and character encoding.
+Encryption and decryption with the classic Caesar cipher algorithm. Covers loops, string manipulation, and character encoding.
 
 </details>
 
 <details>
 <summary><b>Project 4: Build a Movie Ticket Booking Calculator</b> — Pending</summary>
 
-Coming soon — a practical calculator for movie ticket pricing. Will cover conditionals, arithmetic, and user input.
+A practical calculator for movie ticket pricing. Covers conditionals, arithmetic, and user input.
 
 </details>
 
 <details>
 <summary><b>Project 5: Build a Travel Weather Planner</b> — Pending</summary>
 
-Coming soon — weather-based travel recommendations. Will cover conditionals, comparison operators, and decision trees.
+Weather-based travel recommendations. Covers conditionals, comparison operators, and decision trees.
 
 </details>
 
 <details>
 <summary><b>Project 6: Build an Apply Discount Function</b> — Pending</summary>
 
-Coming soon — reusable discount calculation logic. Will cover function definition, parameters, return values, and scope.
+Reusable discount calculation logic. Covers function definition, parameters, return values, and scope.
 
 </details>
 
 <details>
 <summary><b>Project 7: Build an RPG Character</b> — Pending</summary>
 
-Coming soon — a role-playing game character creator. Will cover classes, attributes, methods, and object instantiation.
+A role-playing game character creator. Covers classes, attributes, methods, and object instantiation.
 
 </details>
 
@@ -293,7 +293,7 @@ Calculate areas of polygons using OOP:
 <summary>Preview</summary>
 
 Manage user settings with persistence:
-- Reading/writing JSON files
+- Reading and writing JSON files
 - User profile management
 - Settings validation
 - Default configurations
@@ -394,7 +394,7 @@ Explore non-linear data structures:
 
 ## Implement the Tower of Hanoi Algorithm
 
-**Topics:** Recursion, Divide & Conquer  
+**Topics:** Recursion, Divide and Conquer  
 **Status:** Pending
 
 <details>
@@ -502,32 +502,38 @@ Classic algorithms implemented in Python:
 
 ## Progress Tracker
 
-```
-Python Basics            ████████████████░░░░░░  80%  (2/7 sub-projects)
-Build a Budget App       ░░░░░░░░░░░░░░░░░░░░░░   0%
-Build a Hash Table       ░░░░░░░░░░░░░░░░░░░░░░   0%
-Polygon Area Calculator  ░░░░░░░░░░░░░░░░░░░░░░   0%
-User Config Manager      ░░░░░░░░░░░░░░░░░░░░░░   0%
-Classes and Objects      ░░░░░░░░░░░░░░░░░░░░░░   0%
-Dictionaries and Sets    ░░░░░░░░░░░░░░░░░░░░░░   0%
-Dynamic Programming      ░░░░░░░░░░░░░░░░░░░░░░   0%
-Error Handling           ░░░░░░░░░░░░░░░░░░░░░░   0%
-Graphs and Trees         ░░░░░░░░░░░░░░░░░░░░░░   0%
-Tower of Hanoi           ░░░░░░░░░░░░░░░░░░░░░░   0%
-Linear Data Structures   ░░░░░░░░░░░░░░░░░░░░░░   0%
-Loops and Sequences      ░░░░░░░░░░░░░░░░░░░░░░   0%
-OOP                      ░░░░░░░░░░░░░░░░░░░░░░   0%
-Python Review            ░░░░░░░░░░░░░░░░░░░░░░   0%
-Algorithms               ░░░░░░░░░░░░░░░░░░░░░░   0%
-```
+| Module | Progress |
+|--------|----------|
+| Python Basics | `████████████████░░░░░░` 80% (2 of 7 sub-projects) |
+| Build a Budget App | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| Build a Hash Table | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| Polygon Area Calculator | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| User Config Manager | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| Classes and Objects | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| Dictionaries and Sets | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| Dynamic Programming | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| Error Handling | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| Graphs and Trees | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| Tower of Hanoi | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| Linear Data Structures | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| Loops and Sequences | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| OOP | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| Python Review | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
+| Algorithms | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
 
 <div align="center">
 
 ### Overall Progress
 
-```
-████░░░░░░░░░░░░░░░░  12.5%  (2 of 16 modules)
-```
+`████░░░░░░░░░░░░░░░░` 12.5% (2 of 16 modules)
+
+---
+
+## Prerequisites
+
+- Python 3.x installed on your system
+- Basic familiarity with the command line
+- A text editor or IDE (VS Code, PyCharm, etc.)
 
 ---
 
@@ -542,20 +548,17 @@ cd "Python Basics/Build a Report Card Printer"
 
 # Run a specific step
 python step10.py
-
-# Or run the final solution
-python step18.py
 ```
 
 ---
 
 ## Contributing
 
-Contributions are welcome! If you have a better solution or an alternative approach:
+Contributions are welcome. If you have a better solution or an alternative approach:
 
 1. Fork the repository
 2. Create a new branch (`git checkout -b my-solution`)
-3. Commit your changes (`git commit -m 'Add elegant solution to X'`)
+3. Commit your changes (`git commit -m 'Add solution to X'`)
 4. Push to the branch (`git push origin my-solution`)
 5. Open a Pull Request
 
