@@ -1,104 +1,97 @@
 <div align="center">
 
-# 🐍 FreeCodeCamp Python
+# freecodecamp-python
 
-### 📚 *A Complete Journey Through Python Fundamentals*
+A hands-on collection of Python projects built through FreeCodeCamp's curriculum. Each module is a step-by-step journey from fundamentals to advanced algorithms.
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FreeCodeCamp](https://img.shields.io/badge/FreeCodeCamp-0A0A23?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://freecodecamp.org)
-[![License](https://img.shields.io/badge/License-MIT-22AA55?style=for-the-badge&logo=github&logoColor=white)](#)
-[![Progress](https://img.shields.io/badge/Progress-2%2F16-FF6F00?style=for-the-badge&logo=progress&logoColor=white)](#)
-
----
-
-> ✨ **"The best way to learn programming is by building projects."**
-> — Every step here is a hands-on exercise, crafted to turn theory into real code.
+[![License](https://img.shields.io/badge/License-MIT-22AA55?style=for-the-badge)](#license)
+[![Progress](https://img.shields.io/badge/Progress-12.5%25-FF6F00?style=for-the-badge)](#progress-tracker)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 | # | Module | Status |
-|:-:|---|---|
-| 01 | [Python Basics](#-python-basics) | ✅ **Completed** |
-| 02 | [Build a Budget App](#-build-a-budget-app) | ⬜ Pending |
-| 03 | [Build a Hash Table](#-build-a-hash-table) | ⬜ Pending |
-| 04 | [Build a Polygon Area Calculator](#-build-a-polygon-area-calculator) | ⬜ Pending |
-| 05 | [Build a User Configuration Manager](#-build-a-user-configuration-manager) | ⬜ Pending |
-| 06 | [Classes and Objects](#-classes-and-objects) | ⬜ Pending |
-| 07 | [Dictionaries and Sets](#-dictionaries-and-sets) | ⬜ Pending |
-| 08 | [Dynamic Programming](#-dynamic-programming) | ⬜ Pending |
-| 09 | [Error Handling](#-error-handling) | ⬜ Pending |
-| 10 | [Graphs and Trees](#-graphs-and-trees) | ⬜ Pending |
-| 11 | [Implement the Tower of Hanoi Algorithm](#-implement-the-tower-of-hanoi-algorithm) | ⬜ Pending |
-| 12 | [Linear Data Structures](#-linear-data-structures) | ⬜ Pending |
-| 13 | [Loops and Sequences](#-loops-and-sequences) | ⬜ Pending |
-| 14 | [Object-Oriented Programming (OOP)](#-object-oriented-programming-oop) | ⬜ Pending |
-| 15 | [Python Review](#-python-review) | ⬜ Pending |
-| 16 | [Algorithms](#-algorithms) | ⬜ Pending |
+|:-:|--------|--------|
+| 01 | [Python Basics](#python-basics) | 2 / 7 projects |
+| 02 | [Build a Budget App](#build-a-budget-app) | Pending |
+| 03 | [Build a Hash Table](#build-a-hash-table) | Pending |
+| 04 | [Build a Polygon Area Calculator](#build-a-polygon-area-calculator) | Pending |
+| 05 | [Build a User Configuration Manager](#build-a-user-configuration-manager) | Pending |
+| 06 | [Classes and Objects](#classes-and-objects) | Pending |
+| 07 | [Dictionaries and Sets](#dictionaries-and-sets) | Pending |
+| 08 | [Dynamic Programming](#dynamic-programming) | Pending |
+| 09 | [Error Handling](#error-handling) | Pending |
+| 10 | [Graphs and Trees](#graphs-and-trees) | Pending |
+| 11 | [Implement the Tower of Hanoi Algorithm](#tower-of-hanoi) | Pending |
+| 12 | [Linear Data Structures](#linear-data-structures) | Pending |
+| 13 | [Loops and Sequences](#loops-and-sequences) | Pending |
+| 14 | [Object-Oriented Programming (OOP)](#oop) | Pending |
+| 15 | [Python Review](#python-review) | Pending |
+| 16 | [Algorithms](#algorithms) | Pending |
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 freecodecamp-python/
-│
-├── 📂 Python Basics/                          # ✅ Completed
-│   ├── 📂 Build a Report Card Printer/        # 10 steps
-│   ├── 📂 Build an Employee Profile Generator/ # 18 steps
-│   ├── 📂 Build a Caesar Cipher/              # ⬜
-│   ├── 📂 Build a Movie Ticket Booking Calculator/ # ⬜
-│   ├── 📂 Build a Travel Weather Planner/     # ⬜
-│   ├── 📂 Build an Apply Discount Function/   # ⬜
-│   └── 📂 Build an RPG Character/             # ⬜
-│
-├── 📂 Build a Budget App/                     # ⬜
-├── 📂 Build a Hash Table/                     # ⬜
-├── 📂 Build a Polygon Area Calculator/        # ⬜
-├── 📂 Build a User Configuration Manager/     # ⬜
-├── 📂 Classes and Objects/                    # ⬜
-├── 📂 Dictionaries and Sets/                  # ⬜
-├── 📂 Dynamic Programming/                    # ⬜
-├── 📂 Error Handling/                         # ⬜
-├── 📂 Graphs and Trees/                       # ⬜
-├── 📂 Implement the Tower of Hanoi Algorithm/ # ⬜
-├── 📂 Linear Data Structures/                 # ⬜
-├── 📂 Loops and Sequences/                    # ⬜
-├── 📂 Object-Oriented Programming (OOP)/      # ⬜
-├── 📂 Python Review/                          # ⬜
-├── 📂 Algorithms/                             # ⬜
-│
-└── 📄 README.md                               # 🎯 You are here
+|
++-- Python Basics/                          # 2/7 completed
+|   +-- Build a Report Card Printer/        # 10 steps
+|   +-- Build an Employee Profile Generator/ # 18 steps
+|   +-- Build a Caesar Cipher/              # Pending
+|   +-- Build a Movie Ticket Booking Calculator/ # Pending
+|   +-- Build a Travel Weather Planner/     # Pending
+|   +-- Build an Apply Discount Function/   # Pending
+|   +-- Build an RPG Character/             # Pending
+|
++-- Build a Budget App/                     # Pending
++-- Build a Hash Table/                     # Pending
++-- Build a Polygon Area Calculator/        # Pending
++-- Build a User Configuration Manager/     # Pending
++-- Classes and Objects/                    # Pending
++-- Dictionaries and Sets/                  # Pending
++-- Dynamic Programming/                    # Pending
++-- Error Handling/                         # Pending
++-- Graphs and Trees/                       # Pending
++-- Implement the Tower of Hanoi Algorithm/ # Pending
++-- Linear Data Structures/                 # Pending
++-- Loops and Sequences/                    # Pending
++-- Object-Oriented Programming (OOP)/      # Pending
++-- Python Review/                          # Pending
++-- Algorithms/                             # Pending
+|
++-- README.md
 ```
 
 ---
 
-## 🐍 Python Basics
+## Python Basics
 
-> **📖 Topics Covered:** Variables, Data Types, Type Conversion, String Operations, f-strings, String Slicing
+**Topics:** Variables, Data Types, Type Conversion, String Operations, f-strings, String Slicing
 
 <details open>
-<summary><b>📌 &nbsp;Project 1: Build a Report Card Printer</b> — <code>10 steps</code></summary>
-
-<br>
+<summary><b>Project 1: Build a Report Card Printer</b> — 10 steps</summary>
 
 A beginner-friendly introduction to Python's core data types. Each step builds on the last, progressing from a simple variable to printing all four primitive types.
 
 | Step | File | Concept | Code |
 |:----:|------|---------|------|
-| 01 | `step1.py` | 🔤 String assignment | `name = 'Alice'` |
-| 02 | `step2.py` | 🖨️ The `print()` function | `print(name)` |
-| 03 | `step3.py` | 🔍 The `type()` function | `print(type(name))` |
-| 04 | `step4.py` | ✅ Boolean type | `is_student = True` |
-| 05 | `step5.py` | 📋 Printing multiple items | `print(is_student, type(is_student))` |
-| 06 | `step6.py` | 🧹 Clean output formatting | Combine prints neatly |
-| 07 | `step7.py` | 🔢 Integer type | `age = 20` |
-| 08 | `step8.py` | 💧 Float type & `isinstance()` | `score = 80.5` |
-| 09 | `step9.py` | ✅ Fixed type check | `isinstance(score, float)` |
-| 10 | `step10.py` | 🏁 Final solution | Complete type demonstration |
+| 01 | `step1.py` | String assignment | `name = 'Alice'` |
+| 02 | `step2.py` | The `print()` function | `print(name)` |
+| 03 | `step3.py` | The `type()` function | `print(type(name))` |
+| 04 | `step4.py` | Boolean type | `is_student = True` |
+| 05 | `step5.py` | Printing multiple items | `print(is_student, type(is_student))` |
+| 06 | `step6.py` | Clean output formatting | Combine prints neatly |
+| 07 | `step7.py` | Integer type | `age = 20` |
+| 08 | `step8.py` | Float type & `isinstance()` | `score = 80.5` |
+| 09 | `step9.py` | Fixed type check | `isinstance(score, float)` |
+| 10 | `step10.py` | Final solution | Complete type demonstration |
 
 ```python
 # step10.py — Final Solution
@@ -114,7 +107,7 @@ print(isinstance(score, float))
 print(score, type(score))
 ```
 
-**📚 Key Takeaways:**
+**Key Takeaways:**
 - Python has 4 primitive data types: `str`, `bool`, `int`, `float`
 - Use `type()` to inspect a variable's type at runtime
 - Use `isinstance()` to check if a variable is a specific type
@@ -123,32 +116,30 @@ print(score, type(score))
 </details>
 
 <details>
-<summary><b>📌 &nbsp;Project 2: Build an Employee Profile Generator</b> — <code>18 steps</code></summary>
-
-<br>
+<summary><b>Project 2: Build an Employee Profile Generator</b> — 18 steps</summary>
 
 A comprehensive deep-dive into string manipulation. Builds a full employee profile card while learning concatenation, type conversion, f-strings, and slicing.
 
 | Step | File | Concept | Code |
 |:----:|------|---------|------|
-| 01 | `step1.py` | 📝 Multiple variables | `first_name`, `last_name` |
-| 02 | `step2.py` | ➕ String concatenation | `full_name = first_name + last_name` |
-| 03 | `step3.py` | ✏️ Adding spaces | `first_name + ' ' + last_name` |
-| 04 | `step4.py` | 🏠 New string variable | `address = '123 Main Street'` |
-| 05 | `step5.py` | ➕➖ `+=` operator | `address += ', Apartment 4B'` |
-| 06 | `step6.py` | 🧹 Cleanup | Remove debug prints |
-| 07 | `step7.py` | 🔢 Integer variable | `employee_age = 28` |
-| 08 | `step8.py` | 🔨 Building a string | `employee_info = full_name + ' is '` |
-| 09 | `step9.py` | ⚠️ The TypeError trap | `str + int` — intentional error |
-| 10 | `step10.py` | 🔄 Type conversion | `str(employee_age)` |
-| 11 | `step11.py` | 🖨️ Complete sentence | Print the employee info |
-| 12 | `step12.py` | 📊 More string building | Experience info with `str()` |
-| 13 | `step13.py` | ⚡ Introduction to f-strings | `f'Employee: {full_name}'` |
-| 14 | `step14.py` | 🧩 Multiple f-string placeholders | `\| Age: {employee_age}` |
-| 15 | `step15.py` | 🃏 Full employee card | Position, salary, f-string |
-| 16 | `step16.py` | ✂️ String slicing `[0:3]` | Department code from `employee_code` |
-| 17 | `step17.py` | 🔪 Multiple slices | Year `[4:8]`, initials `[9:11]` |
-| 18 | `step18.py` | ⏮️ Negative slicing | `employee_code[-3:]` |
+| 01 | `step1.py` | Multiple variables | `first_name`, `last_name` |
+| 02 | `step2.py` | String concatenation | `full_name = first_name + last_name` |
+| 03 | `step3.py` | Adding spaces | `first_name + ' ' + last_name` |
+| 04 | `step4.py` | New string variable | `address = '123 Main Street'` |
+| 05 | `step5.py` | `+=` operator | `address += ', Apartment 4B'` |
+| 06 | `step6.py` | Cleanup | Remove debug prints |
+| 07 | `step7.py` | Integer variable | `employee_age = 28` |
+| 08 | `step8.py` | Building a string | `employee_info = full_name + ' is '` |
+| 09 | `step9.py` | The TypeError trap | `str + int` — intentional error |
+| 10 | `step10.py` | Type conversion | `str(employee_age)` |
+| 11 | `step11.py` | Complete sentence | Print the employee info |
+| 12 | `step12.py` | More string building | Experience info with `str()` |
+| 13 | `step13.py` | Introduction to f-strings | `f'Employee: {full_name}'` |
+| 14 | `step14.py` | Multiple f-string placeholders | `| Age: {employee_age}` |
+| 15 | `step15.py` | Full employee card | Position, salary, f-string |
+| 16 | `step16.py` | String slicing `[0:3]` | Department code from `employee_code` |
+| 17 | `step17.py` | Multiple slices | Year `[4:8]`, initials `[9:11]` |
+| 18 | `step18.py` | Negative slicing | `employee_code[-3:]` |
 
 ```python
 # step18.py — Final Solution
@@ -174,12 +165,12 @@ employee_card = f'Employee: {full_name} | Age: {employee_age} | Position: {posit
 print(employee_card)
 
 employee_code = 'DEV-2026-JD-001'
-department = employee_code[0:3]
+department_code = employee_code[0:3]
 year_code = employee_code[4:8]
 initials = employee_code[9:11]
 last_three = employee_code[-3:]
 
-print(department)
+print(department_code)
 print(year_code)
 print(initials)
 print(last_three)
@@ -193,7 +184,7 @@ print(last_three)
 | Positive slice | `'DEV-2026'[0:3]` | `DEV` |
 | Negative slice | `'DEV-2026'[-3:]` | `026` |
 
-**📚 Key Takeaways:**
+**Key Takeaways:**
 - Strings concatenate with `+`, but you can't mix `str + int` without conversion
 - Use `str()` to convert numbers before concatenation
 - f-strings (`f'...{var}...'`) are cleaner and more readable
@@ -204,45 +195,35 @@ print(last_three)
 </details>
 
 <details>
-<summary><b>📌 &nbsp;Project 3: Build a Caesar Cipher</b> — <code>⬜ Pending</code></summary>
-
-<br>
+<summary><b>Project 3: Build a Caesar Cipher</b> — Pending</summary>
 
 Coming soon — encryption/decryption with the classic Caesar cipher algorithm. Will cover loops, string manipulation, and character encoding.
 
 </details>
 
 <details>
-<summary><b>📌 &nbsp;Project 4: Build a Movie Ticket Booking Calculator</b> — <code>⬜ Pending</code></summary>
-
-<br>
+<summary><b>Project 4: Build a Movie Ticket Booking Calculator</b> — Pending</summary>
 
 Coming soon — a practical calculator for movie ticket pricing. Will cover conditionals, arithmetic, and user input.
 
 </details>
 
 <details>
-<summary><b>📌 &nbsp;Project 5: Build a Travel Weather Planner</b> — <code>⬜ Pending</code></summary>
-
-<br>
+<summary><b>Project 5: Build a Travel Weather Planner</b> — Pending</summary>
 
 Coming soon — weather-based travel recommendations. Will cover conditionals, comparison operators, and decision trees.
 
 </details>
 
 <details>
-<summary><b>📌 &nbsp;Project 6: Build an Apply Discount Function</b> — <code>⬜ Pending</code></summary>
-
-<br>
+<summary><b>Project 6: Build an Apply Discount Function</b> — Pending</summary>
 
 Coming soon — reusable discount calculation logic. Will cover function definition, parameters, return values, and scope.
 
 </details>
 
 <details>
-<summary><b>📌 &nbsp;Project 7: Build an RPG Character</b> — <code>⬜ Pending</code></summary>
-
-<br>
+<summary><b>Project 7: Build an RPG Character</b> — Pending</summary>
 
 Coming soon — a role-playing game character creator. Will cover classes, attributes, methods, and object instantiation.
 
@@ -250,13 +231,13 @@ Coming soon — a role-playing game character creator. Will cover classes, attri
 
 ---
 
-## 💰 Build a Budget App
+## Build a Budget App
 
-> **📖 Topics:** Classes, Methods, String Formatting  
-> **Status:** ⬜ *Pending*
+**Topics:** Classes, Methods, String Formatting  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 A budget tracking application that teaches:
 - Creating classes with `__init__`
@@ -268,13 +249,13 @@ A budget tracking application that teaches:
 
 ---
 
-## 🔗 Build a Hash Table
+## Build a Hash Table
 
-> **📖 Topics:** Hashing, Dictionaries, Collision Resolution  
-> **Status:** ⬜ *Pending*
+**Topics:** Hashing, Dictionaries, Collision Resolution  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 Implement a hash table from scratch:
 - Hash function implementation
@@ -285,13 +266,13 @@ Implement a hash table from scratch:
 
 ---
 
-## 📐 Build a Polygon Area Calculator
+## Build a Polygon Area Calculator
 
-> **📖 Topics:** OOP, Inheritance, Math  
-> **Status:** ⬜ *Pending*
+**Topics:** OOP, Inheritance, Math  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 Calculate areas of polygons using OOP:
 - Base `Rectangle` class with `width` and `height`
@@ -303,13 +284,13 @@ Calculate areas of polygons using OOP:
 
 ---
 
-## ⚙️ Build a User Configuration Manager
+## Build a User Configuration Manager
 
-> **📖 Topics:** File I/O, JSON, Serialization  
-> **Status:** ⬜ *Pending*
+**Topics:** File I/O, JSON, Serialization  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 Manage user settings with persistence:
 - Reading/writing JSON files
@@ -321,13 +302,13 @@ Manage user settings with persistence:
 
 ---
 
-## 🏛️ Classes and Objects
+## Classes and Objects
 
-> **📖 Topics:** OOP Fundamentals  
-> **Status:** ⬜ *Pending*
+**Topics:** OOP Fundamentals  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 The foundation of object-oriented programming in Python:
 - Class definitions and instantiation
@@ -339,13 +320,13 @@ The foundation of object-oriented programming in Python:
 
 ---
 
-## 📚 Dictionaries and Sets
+## Dictionaries and Sets
 
-> **📖 Topics:** Hash Maps, Set Theory  
-> **Status:** ⬜ *Pending*
+**Topics:** Hash Maps, Set Theory  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 Master Python's mapping and set types:
 - Dictionary creation and manipulation
@@ -357,13 +338,13 @@ Master Python's mapping and set types:
 
 ---
 
-## ⚡ Dynamic Programming
+## Dynamic Programming
 
-> **📖 Topics:** Memoization, Tabulation, Optimization  
-> **Status:** ⬜ *Pending*
+**Topics:** Memoization, Tabulation, Optimization  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 Optimize recursive solutions with DP:
 - Fibonacci with memoization
@@ -375,13 +356,13 @@ Optimize recursive solutions with DP:
 
 ---
 
-## 🚨 Error Handling
+## Error Handling
 
-> **📖 Topics:** Exceptions, Try/Except, Debugging  
-> **Status:** ⬜ *Pending*
+**Topics:** Exceptions, Try/Except, Debugging  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 Write robust, error-resilient code:
 - `try`/`except`/`else`/`finally` blocks
@@ -393,13 +374,13 @@ Write robust, error-resilient code:
 
 ---
 
-## 🌳 Graphs and Trees
+## Graphs and Trees
 
-> **📖 Topics:** Graph Theory, Tree Traversals  
-> **Status:** ⬜ *Pending*
+**Topics:** Graph Theory, Tree Traversals  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 Explore non-linear data structures:
 - Graph representations (adjacency list/matrix)
@@ -411,13 +392,13 @@ Explore non-linear data structures:
 
 ---
 
-## 🏗️ Implement the Tower of Hanoi Algorithm
+## Implement the Tower of Hanoi Algorithm
 
-> **📖 Topics:** Recursion, Divide & Conquer  
-> **Status:** ⬜ *Pending*
+**Topics:** Recursion, Divide & Conquer  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 Solve the classic Tower of Hanoi puzzle:
 - Recursive algorithm design
@@ -429,13 +410,13 @@ Solve the classic Tower of Hanoi puzzle:
 
 ---
 
-## 📏 Linear Data Structures
+## Linear Data Structures
 
-> **📖 Topics:** Linked Lists, Stacks, Queues  
-> **Status:** ⬜ *Pending*
+**Topics:** Linked Lists, Stacks, Queues  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 Build the fundamental linear data structures:
 - Singly and doubly linked lists
@@ -447,13 +428,13 @@ Build the fundamental linear data structures:
 
 ---
 
-## 🔄 Loops and Sequences
+## Loops and Sequences
 
-> **📖 Topics:** Iteration, Comprehensions, Generators  
-> **Status:** ⬜ *Pending*
+**Topics:** Iteration, Comprehensions, Generators  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 Master iteration in Python:
 - `for` and `while` loops
@@ -465,13 +446,13 @@ Master iteration in Python:
 
 ---
 
-## 🧬 Object-Oriented Programming (OOP)
+## Object-Oriented Programming (OOP)
 
-> **📖 Topics:** Advanced OOP, Inheritance, Polymorphism  
-> **Status:** ⬜ *Pending*
+**Topics:** Advanced OOP, Inheritance, Polymorphism  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 Deep dive into Python's OOP capabilities:
 - Inheritance and method resolution order (MRO)
@@ -483,13 +464,13 @@ Deep dive into Python's OOP capabilities:
 
 ---
 
-## 🔁 Python Review
+## Python Review
 
-> **📖 Topics:** Comprehensive Python Review  
-> **Status:** ⬜ *Pending*
+**Topics:** Comprehensive Python Review  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 A cumulative review of all Python concepts covered:
 - Mixed exercises combining multiple topics
@@ -501,13 +482,13 @@ A cumulative review of all Python concepts covered:
 
 ---
 
-## 🔬 Algorithms
+## Algorithms
 
-> **📖 Topics:** Sorting, Searching, Algorithm Design  
-> **Status:** ⬜ *Pending*
+**Topics:** Sorting, Searching, Algorithm Design  
+**Status:** Pending
 
 <details>
-<summary>📖 Preview</summary>
+<summary>Preview</summary>
 
 Classic algorithms implemented in Python:
 - Sorting: Bubble, Merge, Quick, Heap
@@ -519,10 +500,10 @@ Classic algorithms implemented in Python:
 
 ---
 
-## 📊 Progress Tracker
+## Progress Tracker
 
 ```
-Python Basics            ████████████████░░░░░░  80%  (7 sub-projects, 2 completed)
+Python Basics            ████████████████░░░░░░  80%  (2/7 sub-projects)
 Build a Budget App       ░░░░░░░░░░░░░░░░░░░░░░   0%
 Build a Hash Table       ░░░░░░░░░░░░░░░░░░░░░░   0%
 Polygon Area Calculator  ░░░░░░░░░░░░░░░░░░░░░░   0%
@@ -542,9 +523,7 @@ Algorithms               ░░░░░░░░░░░░░░░░░░�
 
 <div align="center">
 
----
-
-### 📈 Overall Progress
+### Overall Progress
 
 ```
 ████░░░░░░░░░░░░░░░░  12.5%  (2 of 16 modules)
@@ -552,27 +531,27 @@ Algorithms               ░░░░░░░░░░░░░░░░░░�
 
 ---
 
-## 🚀 How to Use This Repository
+## Getting Started
 
 ```bash
-# Clone the repo
+# Clone the repository
 git clone https://github.com/your-username/freecodecamp-python.git
 
 # Navigate to a project
 cd "Python Basics/Build a Report Card Printer"
 
-# Run a step
+# Run a specific step
 python step10.py
 
 # Or run the final solution
-python step18.py  # for Employee Profile Generator
+python step18.py
 ```
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Have a better solution or an alternative approach? Contributions are welcome!
+Contributions are welcome! If you have a better solution or an alternative approach:
 
 1. Fork the repository
 2. Create a new branch (`git checkout -b my-solution`)
@@ -582,15 +561,14 @@ Have a better solution or an alternative approach? Contributions are welcome!
 
 ---
 
-<div align="center">
+## License
 
-### ⭐ Star this repo if you find it helpful!
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-<p>
-  <sub>Built with ❤️ for the FreeCodeCamp community</sub>
+<p align="center">
+  Built for the FreeCodeCamp community
 </p>
 
-</div>
 </div>
