@@ -7,7 +7,7 @@ A hands-on collection of Python projects built through the FreeCodeCamp curricul
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FreeCodeCamp](https://img.shields.io/badge/FreeCodeCamp-0A0A23?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://freecodecamp.org)
 [![License](https://img.shields.io/badge/License-MIT-22AA55?style=for-the-badge)](#license)
-[![Progress](https://img.shields.io/badge/Progress-12.5%25-FF6F00?style=for-the-badge)](#progress-tracker)
+[![Progress](https://img.shields.io/badge/Progress-18.75%25-FF6F00?style=for-the-badge)](#progress-tracker)
 
 </div>
 
@@ -17,7 +17,7 @@ A hands-on collection of Python projects built through the FreeCodeCamp curricul
 
 | # | Module | Status |
 |:-:|--------|--------|
-| 01 | [Python Basics](#python-basics) | 2 / 7 projects |
+| 01 | [Python Basics](#python-basics) | 3 / 7 projects |
 | 02 | [Build a Budget App](#build-a-budget-app) | Pending |
 | 03 | [Build a Hash Table](#build-a-hash-table) | Pending |
 | 04 | [Build a Polygon Area Calculator](#build-a-polygon-area-calculator) | Pending |
@@ -41,12 +41,12 @@ A hands-on collection of Python projects built through the FreeCodeCamp curricul
 ```
 freecodecamp-python/
 |
-+-- Python Basics/                              # 2 of 7 completed
++-- Python Basics/                              # 3 of 7 completed
 |   +-- Build a Report Card Printer/            # 10 steps
 |   +-- Build an Employee Profile Generator/    # 18 steps
+|   +-- Build a Travel Weather Planner/         # 1 step (main.py)
 |   +-- Build a Caesar Cipher/                  # Pending
 |   +-- Build a Movie Ticket Booking Calculator/ # Pending
-|   +-- Build a Travel Weather Planner/         # Pending
 |   +-- Build an Apply Discount Function/       # Pending
 |   +-- Build an RPG Character/                 # Pending
 |
@@ -208,10 +208,62 @@ A practical calculator for movie ticket pricing. Covers conditionals, arithmetic
 
 </details>
 
-<details>
-<summary><b>Project 5: Build a Travel Weather Planner</b> — Pending</summary>
+<details open>
+<summary><b>Project 5: Build a Travel Weather Planner</b> — 1 step (main.py)</summary>
 
-Weather-based travel recommendations. Covers conditionals, comparison operators, and decision trees.
+A decision-tree exercise that evaluates whether commuting is feasible based on weather, distance, and vehicle availability. Covers conditionals, boolean operators, and nested branching logic.
+
+| Step | File | Concept | Code |
+|:----:|------|---------|------|
+| 01 | `main.py` | Full solution | See below |
+
+```python
+# main.py — Final Solution
+distance_mi = 5
+is_raining = False
+has_bike = True
+has_car = False
+has_ride_share_app = True
+
+if not distance_mi:
+    print(False)
+elif distance_mi <= 1:
+    if not is_raining:
+        print(True)
+    else:
+        print(False)
+elif distance_mi <= 6:
+    if has_bike and not is_raining:
+        print(True)
+    else:
+        print(False)
+else:
+    if has_car or has_ride_share_app:
+        print(True)
+    else:
+        print(False)
+```
+
+**Decision Table:**
+
+| Distance | Raining | Bike | Car | Ride App | Result |
+|:--------:|:-------:|:----:|:---:|:--------:|:------:|
+| falsy | — | — | — | — | False |
+| ≤ 1 mi | No | — | — | — | True |
+| ≤ 1 mi | Yes | — | — | — | False |
+| 1–6 mi | No | Yes | — | — | True |
+| 1–6 mi | Yes | No | — | — | False |
+| 1–6 mi | No | No | — | — | False |
+| \> 6 mi | — | — | Yes | * | True |
+| \> 6 mi | — | — | * | Yes | True |
+| \> 6 mi | — | — | No | No | False |
+
+**Key Takeaways:**
+- Use `if not distance_mi` to catch falsy values (0, None, empty)
+- `elif` chains evaluate conditions in ascending order
+- Combine conditions with `and`, `or`, and `not` for precise logic
+- Each distance bracket has unique transportation requirements
+- The final `else` covers distances over 6 miles
 
 </details>
 
@@ -504,7 +556,7 @@ Classic algorithms implemented in Python:
 
 | Module | Progress |
 |--------|----------|
-| Python Basics | `████████████████░░░░░░` 80% (2 of 7 sub-projects) |
+| Python Basics | `██████████████████░░░░` 86% (3 of 7 sub-projects) |
 | Build a Budget App | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
 | Build a Hash Table | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
 | Polygon Area Calculator | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
@@ -525,7 +577,7 @@ Classic algorithms implemented in Python:
 
 ### Overall Progress
 
-`████░░░░░░░░░░░░░░░░` 12.5% (2 of 16 modules)
+`███████░░░░░░░░░░░░░░` 18.75% (3 of 16 modules)
 
 ---
 
