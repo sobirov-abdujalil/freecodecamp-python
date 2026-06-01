@@ -17,7 +17,7 @@ A hands-on collection of Python projects built through the FreeCodeCamp curricul
 
 | # | Module | Status |
 |:-:|--------|--------|
-| 01 | [Python Basics](#python-basics) | 3 / 7 projects |
+| 01 | [Python Basics](#python-basics) | 4 / 7 projects |
 | 02 | [Build a Budget App](#build-a-budget-app) | Pending |
 | 03 | [Build a Hash Table](#build-a-hash-table) | Pending |
 | 04 | [Build a Polygon Area Calculator](#build-a-polygon-area-calculator) | Pending |
@@ -41,13 +41,13 @@ A hands-on collection of Python projects built through the FreeCodeCamp curricul
 ```
 freecodecamp-python/
 |
-+-- Python Basics/                              # 3 of 7 completed
++-- Python Basics/                              # 4 of 7 completed
 |   +-- Build a Report Card Printer/            # 10 steps
 |   +-- Build an Employee Profile Generator/    # 18 steps
 |   +-- Build a Travel Weather Planner/         # 1 step (main.py)
 |   +-- Build a Caesar Cipher/                  # Pending
 |   +-- Build a Movie Ticket Booking Calculator/ # Pending
-|   +-- Build an Apply Discount Function/       # Pending
+|   +-- Build an Apply Discount Function/       # 1 step (main.py)
 |   +-- Build an RPG Character/                 # Pending
 |
 +-- Build a Budget App/                         # Pending
@@ -556,7 +556,7 @@ Classic algorithms implemented in Python:
 
 | Module | Progress |
 |--------|----------|
-| Python Basics | `██████████████████░░░░` 86% (3 of 7 sub-projects) |
+| Python Basics | `██████████████████░░░░` 86% (4 of 7 sub-projects) |
 | Build a Budget App | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
 | Build a Hash Table | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
 | Polygon Area Calculator | `░░░░░░░░░░░░░░░░░░░░░░` 0% |
